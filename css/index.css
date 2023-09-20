@@ -1,8 +1,24 @@
+.box {
+  width: 1000px;
+  height: 1000px;
+  background-color: blueviolet;
+  cursor: url(../img/Crosshair.cur), auto;
+}
 .box h1:nth-of-type(2n-1) {
   color: antiquewhite;
   background-color: aqua;
+  cursor: url(../img/No.cur), auto;
 }
 .box h1:nth-of-type(2n) {
   color: antiquewhite;
   background-color: aquamarine;
+}
+.box h2:nth-of-type(2n-1) {
+  color: antiquewhite;
+  background-color: #9b2e90;
+  cursor: url(../img/No.cur), auto;
+}
+.box h2:nth-of-type(2n) {
+  color: antiquewhite;
+  background-color: #4e5cd5;
 }
