@@ -22,3 +22,12 @@
   color: antiquewhite;
   background-color: #4e5cd5;
 }
+.box h3:nth-of-type(2n-1) {
+  color: antiquewhite;
+  background-color: #9b2e90;
+  cursor: url(../img/No.cur), auto;
+}
+.box h3:nth-of-type(2n) {
+  color: antiquewhite;
+  background-color: #4e5cd5;
+}
